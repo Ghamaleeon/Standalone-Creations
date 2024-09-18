@@ -4,7 +4,7 @@ if not [%1] == [] cd %1
 if not exist ".git" goto nofolder
 
 git status
-set choice=.
+set choice=-A
 echo Insert a flag or some files: (Default: %choice%)
 
 set /p choice=
