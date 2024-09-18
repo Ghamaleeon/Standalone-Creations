@@ -8,6 +8,7 @@ git remote -v
 
 set /p choice=
 git remote %choice%
+git remote -v
 goto end
 
 :nofolder
