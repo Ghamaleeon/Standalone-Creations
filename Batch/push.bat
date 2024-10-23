@@ -5,7 +5,7 @@ if not exist ".git" goto nofolder
 
 git remote -v
 git branch -a
-set choice=-u origin main
+set choice=origin main
 echo Insert a flag, a remote and a branch: (Default: %choice%)
 
 set /p choice=
